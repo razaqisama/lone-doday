@@ -1,7 +1,7 @@
 function Header() {
   return (
     <div className="flex flex-col">
-      <div className="flex justify-between items-center bg-red-100 h-16 py-2 px-16">
+      <div className="flex justify-between items-center h-16 py-2 px-10">
         <div className="cursor-pointer flex justify-center items-center h-full bg-indigo-800 p-2 rounded-lg">
           <p className="text-white text-2xl font-bold">Lone</p>
           <p className="text-yellow-300 text-2xl font-bold">Dodey</p>
