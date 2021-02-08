@@ -1,45 +1,13 @@
-import Header from './Components/Header';
-import CategoryList from './Components/CategoryList';
+import Header from './Components/Header/Header';
+import CategoryList from './Components/Header/CategoryList';
+import Main from './Components/Main/Main';
 
 function App() {
   return (
     <div className="flex flex-col">
       <Header />
       <CategoryList />
-      <div className="flex flex-auto h-20">
-        <h1>Center</h1>
-      </div>
-      <div className="flex flex-auto h-20">
-        <h1>Center</h1>
-      </div>
-      <div className="flex flex-auto h-20">
-        <h1>Center</h1>
-      </div>
-      <div className="flex flex-auto h-20">
-        <h1>Center</h1>
-      </div>
-      <div className="flex flex-auto h-20">
-        <h1>Center</h1>
-      </div>
-      <div className="flex flex-auto h-20">
-        <h1>Center</h1>
-      </div>
-      <div className="flex flex-auto h-20">
-        <h1>Center</h1>
-      </div>
-      <div className="flex flex-auto h-20">
-        <h1>Center</h1>
-      </div>
-      <div className="flex flex-auto h-20">
-        <h1>Center</h1>
-      </div>
-      <div className="flex flex-auto h-20">
-        <h1>Center</h1>
-      </div>
-      <div className="flex flex-auto h-20">
-        <h1>Center</h1>
-      </div>
-      
+      <Main />
       <div className="flex">
         <h1>Bottom</h1>
       </div>
