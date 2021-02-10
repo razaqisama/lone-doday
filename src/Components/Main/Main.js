@@ -4,6 +4,7 @@ function Main () {
   return (
     <>
       <NewsList />
+      <NewsList />
     </>
   )
 }

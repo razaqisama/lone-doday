@@ -1,7 +1,7 @@
 import CategoryScroll from './CategoryScroll';
-
 function CategoryList () {
   return (
+    <>
     <div className="sticky top-0 bg-white flex flex-row h-14 px-6 border-b-2 border-gray-100 shadow-md">
       <CategoryScroll />
       <div className="group cursor-pointer flex justify-center items-center p-2 ">
@@ -10,6 +10,7 @@ function CategoryList () {
         </svg>
       </div>
     </div>
+    </>
   )
 }
 
