@@ -3,7 +3,7 @@ import CategoryList from './Components/Header/CategoryList';
 import Main from './Components/Main/Main';
 import Footer from './Components/Footer/Footer';
 import Carousel from './Components/Carousel/Carousel';
-import {useState, useEffect} from 'react';
+import {useEffect} from 'react';
 import {useDispatch} from 'react-redux';
 import {fetchLineToday} from './Store/actions';
 
