@@ -1,7 +1,10 @@
 function Article ({article}) {
   return (
-    <div 
-      className="inline-block px-3 space-y-2">
+    <a
+      target='_blank' 
+      href={article.url.url}
+      className="group cursor-pointer inline-block px-3 space-y-2"
+      >
       <img 
         className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
         src={`https://obs.line-scdn.net/${article.thumbnail.hash}`}
@@ -12,7 +15,7 @@ function Article ({article}) {
         <p>{article.title}</p>
         <p>{article.publisher}</p>
       </div>
-    </div>
+    </a>
   )
 }
 

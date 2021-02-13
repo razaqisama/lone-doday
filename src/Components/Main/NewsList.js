@@ -3,7 +3,6 @@ import {useState} from 'react';
 import Article from './Article';
 function NewsList ({news}) {
   const [articles, setArticles] = useState(news.sections[0].articles);
-  console.log(news);
   if(articles.length) {
     return (
       <div className="flex flex-col p-2">
