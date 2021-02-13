@@ -1,5 +1,4 @@
 function CarouselItem ({carousel}) {
-  console.log(carousel);
   return (
     <a 
       target="_blank"
