@@ -49,7 +49,7 @@ export function fetchLineToday() {
   return (dispatch, getState) => {
     dispatch(setLoadingCategories(true));
     dispatch(setLoadingNews(true));
-    fetchData("http://localhost:3000/line")
+    fetchData("https://afternoon-lowlands-62529.herokuapp.com/line")
     .then(({data}) => {
       dispatch(setCategories(data.result.categoryList));
       dispatch(setAllNews(data.result.categories));
